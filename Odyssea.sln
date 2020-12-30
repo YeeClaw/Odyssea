@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{440F6069-9FD3-498A-897A-DC3C75F0087C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D600BE33-AED4-45E0-A5A8-EAFC974C6DE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odyssea", "Odyssea\Odyssea.csproj", "{E27DDBCB-BA32-4F4F-B5F1-482ACCD279F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odyssea", "src\Odyssea\Odyssea.csproj", "{8AFE7405-4772-49BE-8A71-0508812E1B5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E27DDBCB-BA32-4F4F-B5F1-482ACCD279F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E27DDBCB-BA32-4F4F-B5F1-482ACCD279F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E27DDBCB-BA32-4F4F-B5F1-482ACCD279F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E27DDBCB-BA32-4F4F-B5F1-482ACCD279F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AFE7405-4772-49BE-8A71-0508812E1B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AFE7405-4772-49BE-8A71-0508812E1B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AFE7405-4772-49BE-8A71-0508812E1B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AFE7405-4772-49BE-8A71-0508812E1B5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E27DDBCB-BA32-4F4F-B5F1-482ACCD279F9} = {440F6069-9FD3-498A-897A-DC3C75F0087C}
+		{8AFE7405-4772-49BE-8A71-0508812E1B5E} = {D600BE33-AED4-45E0-A5A8-EAFC974C6DE1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4CDED52-16C8-47A3-A3FF-F8BD76C79A9B}

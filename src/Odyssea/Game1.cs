@@ -27,7 +27,7 @@ namespace Odyssea
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            Texture2D title = Content.Load<Texture2D>("Images/menulogo");
         }
 
         protected override void Update(GameTime gameTime)
@@ -42,9 +42,7 @@ namespace Odyssea
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
-
-            // TODO: Add your drawing code here
+            GraphicsDevice.Clear(Color.Black);
 
             base.Draw(gameTime);
         }
